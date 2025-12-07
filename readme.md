@@ -6,7 +6,7 @@
 ![Prisma](https://img.shields.io/badge/Prisma-5.x-2D3748)
 ![Postgresql](https://img.shields.io/badge/Posgres-18.x-lightblue)
 
-A clean, scalable, and production-ready backend API built with Express.js, TypeScript, Prisma ORM, and SQLite/PostgreSQL. Features modular architecture, JWT authentication, and comprehensive error handling.
+A clean, scalable, and production-ready backend API built with Express.js, TypeScript, Prisma ORM, and Postgres/PostgreSQL. Features modular architecture, JWT authentication, and comprehensive error handling.
 
 ## 📋 Table of Contents
 
@@ -35,7 +35,7 @@ A clean, scalable, and production-ready backend API built with Express.js, TypeS
 - ✅ **Input Validation** - Comprehensive validation with Zod
 - ✅ **Error Handling** - Centralized error handling middleware
 - ✅ **Environment Configuration** - Secure configuration management
-- ✅ **SQLite/PostgreSQL** - Flexible database support
+- ✅ **Postgres/PostgreSQL** - Flexible database support
 - ✅ **CORS Enabled** - Cross-origin resource sharing
 - ✅ **Security Headers** - Helmet.js for security
 - ✅ **Logging** - Request logging with Morgan
@@ -93,7 +93,7 @@ text
 - **Node.js** 18.x or higher
 - **npm** 9.x or higher
 - **Git** (for version control)
-- **Database** (SQLite for development, PostgreSQL for production)
+- **Database** (Postgres for development, PostgreSQL for production)
 
 ## 📦 Installation
 
@@ -130,7 +130,7 @@ NODE_ENV=development
 JWT_SECRET=your-super-secret-jwt-key-change-this-in-production-minimum-32-characters
 JWT_EXPIRES_IN=24h
 
-# Database Configuration (SQLite for development)
+# Database Configuration (Postgres for development)
 DATABASE_URL="file:./dev.db"
 
 # Database Configuration (PostgreSQL for production)
@@ -139,7 +139,7 @@ DATABASE_URL="file:./dev.db"
 # CORS Configuration
 CORS_ORIGIN=http://localhost:3000
 🗄️ Database Setup
-Using SQLite (Development)
+Using Postgres (Development)
 bash
 # Update .env
 DATABASE_URL="file:./dev.db"
@@ -464,7 +464,7 @@ TypeScript
 
 Prisma ORM
 
-SQLite/PostgreSQL
+Postgres/PostgreSQL
 
 JWT Authentication
 
@@ -486,9 +486,9 @@ echo "# 🚀 Express TypeScript Backend API
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
 ![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
 ![Prisma](https://img.shields.io/badge/Prisma-5.x-2D3748)
-![SQLite](https://img.shields.io/badge/SQLite-3.x-003B57)
+![Postgres](https://img.shields.io/badge/Postgres-3.x-003B57)
 
-A clean, scalable, and production-ready backend API built with Express.js, TypeScript, Prisma ORM, and SQLite/PostgreSQL.
+A clean, scalable, and production-ready backend API built with Express.js, TypeScript, Prisma ORM, and Postgres/PostgreSQL.
 
 ## ✨ Features
 
@@ -498,7 +498,7 @@ A clean, scalable, and production-ready backend API built with Express.js, TypeS
 - ✅ **JWT Authentication** - Secure authentication
 - ✅ **Modular Architecture** - Clean separation
 - ✅ **Input Validation** - Zod validation
-- ✅ **SQLite/PostgreSQL** - Flexible database
+- ✅ **Postgres/PostgreSQL** - Flexible database
 
 ## 🚀 Quick Start
 
