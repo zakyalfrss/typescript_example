@@ -42,46 +42,49 @@ A clean, scalable, and production-ready backend API built with Express.js, TypeS
 - ✅ **Compression** - Response compression
 
 ## 📁 Project Structure
+
+```txt
 backend/
 ├── src/
-│ ├── app.ts # Express app configuration
-│ ├── server.ts # Server startup & shutdown
-│ ├── config/
-│ │ └── env.ts # Environment configuration
-│ ├── middlewares/
-│ │ ├── auth.middleware.ts # Authentication middleware
-│ │ ├── error.middleware.ts # Error handling middleware
-│ │ └── validation.middleware.ts # Request validation
-│ ├── modules/
-│ │ ├── auth/ # Authentication module
-│ │ │ ├── auth.controller.ts
-│ │ │ ├── auth.repository.ts
-│ │ │ ├── auth.route.ts
-│ │ │ ├── auth.schema.ts
-│ │ │ ├── auth.service.ts
-│ │ │ └── index.ts
-│ │ └── users/ # Users module
-│ │ ├── user.controller.ts
-│ │ ├── user.repository.ts
-│ │ ├── user.route.ts
-│ │ ├── user.service.ts
-│ │ └── index.ts
-│ ├── routes/
-│ │ └── index.ts # Main routes configuration
-│ ├── utils/ # Utility functions
-│ │ ├── auth.ts
-│ │ ├── password.ts
-│ │ ├── response.ts
-│ │ └── token.ts
-│ └── prisma.ts # Prisma client configuration
+│   ├── app.ts                # Express app configuration
+│   ├── server.ts             # Server startup & shutdown
+│   ├── config/
+│   │   └── env.ts            # Environment configuration
+│   ├── middlewares/
+│   │   ├── auth.middleware.ts        # Authentication middleware
+│   │   ├── error.middleware.ts       # Error handling middleware
+│   │   └── validation.middleware.ts  # Request validation
+│   ├── modules/
+│   │   ├── auth/             # Authentication module
+│   │   │   ├── auth.controller.ts
+│   │   │   ├── auth.repository.ts
+│   │   │   ├── auth.route.ts
+│   │   │   ├── auth.schema.ts
+│   │   │   ├── auth.service.ts
+│   │   │   └── index.ts
+│   │   └── users/            # Users module
+│   │       ├── user.controller.ts
+│   │       ├── user.repository.ts
+│   │       ├── user.route.ts
+│   │       ├── user.service.ts
+│   │       └── index.ts
+│   ├── routes/
+│   │   └── index.ts          # Main routes configuration
+│   ├── utils/                # Utility functions
+│   │   ├── auth.ts
+│   │   ├── password.ts
+│   │   ├── response.ts
+│   │   └── token.ts
+│   └── prisma.ts             # Prisma client configuration
 ├── prisma/
-│ ├── schema.prisma # Database schema
-│ └── migrations/ # Database migrations
-├── .env.example # Environment variables template
-├── .gitignore # Git ignore rules
-├── package.json # Dependencies and scripts
-├── tsconfig.json # TypeScript configuration
-└── README.md # This file
+│   ├── schema.prisma         # Database schema
+│   └── migrations/           # Database migrations
+├── .env.example              # Environment variables template
+├── .gitignore                # Git ignore rules
+├── package.json              # Dependencies and scripts
+├── tsconfig.json             # TypeScript configuration
+└── README.md                 # This file
+```
 
 text
 
