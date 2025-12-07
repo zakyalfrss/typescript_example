@@ -4,7 +4,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
 ![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
 ![Prisma](https://img.shields.io/badge/Prisma-5.x-2D3748)
-![PostgreSQL](img.shields.io)
+![Postgresql](https://img.shields.io/badge/Posgres-18.x-lightblue)
 
 A clean, scalable, and production-ready backend API built with Express.js, TypeScript, Prisma ORM, and SQLite/PostgreSQL. Features modular architecture, JWT authentication, and comprehensive error handling.
 
